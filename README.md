@@ -22,11 +22,11 @@ This project focuses on applying A/B testing to analyze user behavior in a mobil
 
 2. **Data Preparation:**
    - Pre-processed data for compatibility with statistical tests.
-   - Identified control and test groups.
+   - Identified control and test groups. Control group - Gate 30, Test group - Gate 40.
 
 3. **A/B Testing Procedure:**
    - Formulated hypotheses regarding user behavior changes.
-   - Selected appropriate statistical tests (e.g., t-tests, z-tests) to compare control and test group metrics.
+   - Selected appropriate statistical tests (e.g., t-tests, chi-square test) to compare control and test group metrics.
 
 4. **Analysis and Visualization:**
    - Conducted tests to assess statistical significance.
@@ -36,10 +36,12 @@ This project focuses on applying A/B testing to analyze user behavior in a mobil
 
 - Key metrics analyzed include:
   - User engagement rates.
-  - Revenue per user.
   - Retention rates.
 
-- Findings suggest that [insert key result or trend, e.g., "the new feature increased retention by X%"].
+- Findings suggest that the new product feature, didn't increase/decrese the retention rates. Many of the players haven't reached gate 30 to test the new feature and conclude that these results are accurate.
+
+## Improvements
+We should consider moving the gate from level 30 to level 20. Additionally, we need to explore new strategies to increase user engagement, encouraging players to continue playing until at least gate 30 rather than dropping off around gate 15.
 
 ## Tools and Libraries Used
 
@@ -49,10 +51,6 @@ This project focuses on applying A/B testing to analyze user behavior in a mobil
 - Matplotlib
 - Seaborn
 - Scipy (for statistical tests)
-
-## Conclusion
-
-The analysis provides valuable insights into user behavior and the effectiveness of new features or changes. By leveraging data-driven decisions, mobile game developers can enhance user experiences and optimize revenue.
 
 ## How to Use
 
